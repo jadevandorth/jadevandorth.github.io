@@ -1,41 +1,47 @@
-baseURL: "https://jadevandorth.github.io" 
-title: Moritz-Maria von Igelfeld
+baseURL: "https://jadevandorth.github.io"           # CHANGE TO YOUR OWN DOMAIN
+title: Jade Suiyue Yue van Dorth   		    # SITE TITLE - SHOWS IN BROWSER TAB & HEADER
 theme: PaperMod
 
 enableInlineShortcodes: true
 enableRobotsTXT: true
 pagination:
-  pagerSize: 20
+  pagerSize: 20					    # NUMBER OF POSTS PER PAGE
 
 taxonomies:
     tag: tags
 
+# ---------------------------
+# MENU SETTINGS
+# ---------------------------
+
 menu:
     main:
-        - name: Books
-          url: books/
-          weight: 5 
+        - name: About Me       		            # TEXT IN MENU
+          url: about/                               # URL (content/about.md should exist)
+          weight: 1                                 # ORDER OF APPEARANCE (LOWER=FIRST) 
         - name: Papers
           url: papers/
           weight: 2
-        - name: Courses
-          url: courses/
-          weight: 3
-        - name: Data
-          url: data/
-          weight: 4 
         - name: Blog
-          url: https://en.wikipedia.org/wiki/Moritz-Maria_von_Igelfeld_(character)
-          weight: 6
+          url: blog/
+          weight: 3
+        - name: Search
+          url: search/
+	  weight: 4
+
+# ---------------------------
+# SITE PARAMETERS
+# ---------------------------
 
 params:
-    description: "This website hosts Moritz-Maria von Igelfeld's research papers, books, course materials, data, curriculum vitae, and contact information."
-    author: Moritz-Maria von Igelfeld
-    # googleAnalyticsID: "G-XXXXX"
+    description: "This is the personal site of Jade Suiyue Yue van Dorth. You can learn more About Me, explore my Papers, read updates on my Blog, and use the Search function to find specific content."
+
+    author: Jade Suiyue Yue van Dorth
+
     DateFormat: "January 2006"
     defaultTheme: light
     hideFooter: false
-    disableThemeToggle: true
+    disableThemeToggle: false
     ShowShareButtons: false
     ShowReadingTime: false
     disableSpecial1stPost: true
@@ -44,7 +50,7 @@ params:
     ShowBreadCrumbs: false
     ShowCodeCopyButtons: true
     ShowAllPagesInArchive: false
-    MainSections: ["books","courses","papers","data"]
+    MainSections: ["books","courses","papers","data"] # THIS NEEDS TO BE CHANGED? 
     ShowToc: false
     disableScrollToTop: true
     TocOpen: true
@@ -52,52 +58,44 @@ params:
     UseHugoToc: true
     comments: false
     math: true
+
+  # ---------------------------
+  # HOMEPAGE PROFILE MODE
+  # ---------------------------
+
     profileMode:
           enabled: true
-          title: Professor Dr von Igelfeld
-          subtitle: "I am a Professor in the Institute of Romance Philology at the University of Regensburg, Germany. My research focuses on Portuguese irregular verbs. I was a doctoral student of Professor Dr Dieter Vogelsang in Munich, and later a second assistant of Professor Walter Schoeffler-Henschell at the University of Wiesbaden."
+          title: Jade Suiyue Yue van Dorth (MSc)       # LARGE TITLE ON HOMEPAGE
+
+          subtitle: "I am a Ph.D. student in human-AI communication at The University of Amsterdam. I love exploring emerging technologies and reflecting on how they shape the experiences and futures of young people today. I am passionate about bridging the gap between AI research and real-world impacts, especially for the next generation." 
+
           imageUrl: "picture.jpeg"
           imageWidth: 160
           imageHeight: 160
           buttons:
-            - name: Papers
-              url: papers/
-            - name: Data
-              url: data/
-            - name: Books
-              url: books/
-            - name: Courses
-              url: courses/
-            - name: Tags
-              url: tags/
-            - name: Archive
-              url: archive/
-            - name: Blog
-              url: https://en.wikipedia.org/wiki/Moritz-Maria_von_Igelfeld_(character)
+        - name: About me
+        url: about/
+        - name: Papers
+        url: papers/
+        - name: Blog
+        url: blog/
+        - name: Search
+        url: search/
+
+  # ---------------------------
+  # SOCIAL ICONS (BOTTOM OF PROFILE)
+  # REMOVE IF NOT WANTED
+  # ---------------------------
 
     socialIcons:
         - name: CV
           url: cv.pdf
-        - name: Email
-          url: mailto:igelfeld@regensburg.edu
-        - name: Zoom
-          url: https://www.zoom.us/my/igelfeld
-        - name: Location
-          url: location/
-        - name: Office Hours
-          url: officehours/
-        - name: Google Scholar
-          url: https://scholar.google.com/citations?user=cL23w-4AAAAJ
         - name: GitHub
-          url: https://github.com/pmichaillat
-        - name: Substack
-          url: https://pmichaillat.substack.com
-        - name: YouTube
-          url: https://www.youtube.com/@pmichaillat
-        - name: Twitter
-          url: https://x.com/pmichaillat
-        - name: Bluesky
-          url: https://bsky.app/profile/pmichaillat.bsky.social
+          url: https://github.com/jadevandorth
+
+# ---------------------------
+# APPEARANCE
+# ---------------------------
 
     assets:
         disableScrollBarStyle: true
@@ -105,9 +103,13 @@ params:
         hiddenInList: false
         hiddenInSingle: true
     label:
-      text: "Moritz-Maria von Igelfeld"
+      text: "Jade Suiyue Yue van Dorth"
       icon: favicon.ico
       iconHeight: 18
+
+  # ---------------------------
+  # MARKUP OPTIONS
+  # ---------------------------
 
 markup:
     goldmark:
