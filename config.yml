@@ -17,8 +17,8 @@ taxonomies:
 menu:
     main:
         - name: About Me       		            # TEXT IN MENU
-          url: about/                               # URL (content/about.md should exist)
-          weight: 1                                 # ORDER OF APPEARANCE (LOWER=FIRST) 
+          url: about/                               # URL content/about.md should exist
+          weight: 1                                 # ORDER OF APPEARANCE
         - name: Papers
           url: papers/
           weight: 2
