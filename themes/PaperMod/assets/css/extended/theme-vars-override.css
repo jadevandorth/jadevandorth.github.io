@@ -6,26 +6,26 @@
     --header-height: 60px;
     --footer-height: 60px;
     --radius: 8px;
-    --theme: #F0B7A4;
-    --entry: #F1D1B5;
-    --primary: #F18C8E;
-    --secondary: #568EA6;
-    --tertiary: #305F72;
-    --content: #305F72;
-    --code-block-bg: #F1D1B5;
-    --code-bg: #F0B7A4;
-    --border: #F18C8E;
+    --theme: #F2CC8C;
+    --entry: #F1E6C1;
+    --primary: #DDA5B6;
+    --secondary: #3F6A8A;
+    --tertiary: #4D5E72;
+    --content: #4D5E72;
+    --code-block-bg: #F1E6C1;
+    --code-bg: #F2CC8C;
+    --border: #DDA5B6;
 }
 .dark {
-    --theme: #305F72;
-    --entry: #568EA6;
-    --primary: #F18C8E;
-    --secondary: #F0B7A4;
-    --tertiary: #F1D1B5;
+    --theme: #4D5E72;
+    --entry: #3F6A8A;
+    --primary: #DDA5B6;
+    --secondary: #F2CC8C;
+    --tertiary: #F1E6C1;
     --content: #F0F0F0;
-    --code-block-bg: #568EA6;
-    --code-bg: #305F72;
-    --border: #F18C8E;
+    --code-block-bg: #3F6A8A;
+    --code-bg: #4D5E72;
+    --border: #DDA5B6;
 }
 .list {
     background: var(--code-bg);
