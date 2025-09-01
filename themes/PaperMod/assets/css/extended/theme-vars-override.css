@@ -6,30 +6,36 @@
     --header-height: 60px;
     --footer-height: 60px;
     --radius: 8px;
-    --theme: #F0B7A4;
-    --entry: #F1D1B5;
-    --primary: #F18C8E;
-    --secondary: #568EA6;
-    --tertiary: #305F72;
-    --content: #305F72;
-    --code-block-bg: #F1D1B5;
-    --code-bg: #F0B7A4;
-    --border: #F18C8E;
+
+    /* Light theme: lighter beige background, clear dark text */
+    --theme: #FFF8F4;       /* very light beige */
+    --entry: #FAE7D2;       /* soft warm beige */
+    --primary: #064451;     /* dark teal blue for text */
+    --secondary: #5A9AA9;   /* muted blue-gray */
+    --tertiary: #397078;    /* medium teal */
+    --content: #064451;     /* dark teal text for readability */
+    --code-block-bg: #FAE7D2; /* light beige for code blocks */
+    --code-bg: #F3D9C3;       /* peach-beige */
+    --border: #E3A498;        /* muted salmon */
 }
+
 .dark {
-    --theme: #305F72;
-    --entry: #568EA6;
-    --primary: #F18C8E;
-    --secondary: #F0B7A4;
-    --tertiary: #F1D1B5;
-    --content: #F0F0F0;
-    --code-block-bg: #568EA6;
-    --code-bg: #305F72;
-    --border: #F18C8E;
+    /* Dark theme: limited shades, darker background, light text */
+    --theme: #397078;       /* dark teal blue background */
+    --entry: #5A9AA9;       /* medium muted blue */
+    --primary: #E3A498;     /* light salmon text */
+    --secondary: #F3D9C3;   /* light peach */
+    --tertiary: #FAE7D2;    /* very light beige accent */
+    --content: #F8F8F8;     /* very light text for contrast */
+    --code-block-bg: #5A9AA9; /* medium muted blue for code blocks */
+    --code-bg: #397078;       /* dark teal background */
+    --border: #E3A498;        /* light muted salmon border */
 }
+
 .list {
     background: var(--code-bg);
 }
+
 .dark.list {
     background: var(--theme);
 }
