@@ -89,7 +89,7 @@ params:
 
     socialIcons:
         - name: CV
-          url: cv.pdf
+          url: cvjade.pdf
         - name: GitHub
           url: https://github.com/jadevandorth
 
