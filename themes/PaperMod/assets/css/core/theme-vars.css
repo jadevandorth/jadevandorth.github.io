@@ -6,15 +6,17 @@
     --header-height: 60px;
     --footer-height: 60px;
     --radius: 8px;
-    --theme: rgb(255, 255, 255);
-    --entry: rgb(255, 255, 255);
-    --primary: rgb(30, 30, 30);
-    --secondary: rgb(108, 108, 108);
-    --tertiary: rgb(214, 214, 214);
-    --content: rgb(31, 31, 31);
-    --code-block-bg: rgb(28, 29, 33);
-    --code-bg: rgb(245, 245, 245);
-    --border: rgb(238, 238, 238);
+
+    --theme: rgb(255, 252, 250);
+    --entry: rgb(255, 240, 245);
+    --primary: rgb(33, 33, 33);
+    --secondary: rgb(120, 110, 120);
+    --tertiary: rgb(230, 200, 210);
+    --content: rgb(40, 40, 40);
+
+    --code-block-bg: rgb(255, 230, 240);
+    --code-bg: rgb(255, 245, 250);
+    --border: rgb(245, 210, 225);
 }
 
 .dark {
