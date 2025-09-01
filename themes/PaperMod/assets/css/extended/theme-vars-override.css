@@ -7,35 +7,37 @@
     --footer-height: 60px;
     --radius: 8px;
 
-    /* Light theme: lighter beige background, clear dark text */
-    --theme: #FFF8F4;       /* very light beige */
-    --entry: #FAE7D2;       /* soft warm beige */
-    --primary: #064451;     /* dark teal blue for text */
-    --secondary: #5A9AA9;   /* muted blue-gray */
-    --tertiary: #397078;    /* medium teal */
-    --content: #064451;     /* dark teal text for readability */
-    --code-block-bg: #FAE7D2; /* light beige for code blocks */
-    --code-bg: #F3D9C3;       /* peach-beige */
-    --border: #E3A498;        /* muted salmon */
+    /* Light theme: higher contrast, light beige background, dark text */
+    --theme: #FFF9F6;       /* very pale beige, almost white */
+    --entry: #F9EBD7;       /* soft warm beige */
+    --primary: #042E3E;     /* very dark teal blue for text */
+    --secondary: #317080;   /* saturated teal for clickable boxes */
+    --tertiary: #4A6C7D;    /* darker teal accent */
+    --content: #042E3E;     /* very dark teal text for maximum contrast */
+    --code-block-bg: #F9EBD7; /* light beige background for code blocks */
+    --code-bg: #D0B399;       /* warm beige for backgrounds */
+    --border: #AC7C68;        /* muted warm brown border */
 }
 
 .dark {
-    /* Dark theme: limited shades, darker background, light text */
-    --theme: #397078;       /* dark teal blue background */
-    --entry: #5A9AA9;       /* medium muted blue */
-    --primary: #E3A498;     /* light salmon text */
-    --secondary: #F3D9C3;   /* light peach */
-    --tertiary: #FAE7D2;    /* very light beige accent */
-    --content: #F8F8F8;     /* very light text for contrast */
-    --code-block-bg: #5A9AA9; /* medium muted blue for code blocks */
-    --code-bg: #397078;       /* dark teal background */
-    --border: #E3A498;        /* light muted salmon border */
+    /* Dark theme: higher contrast, dark background, light text */
+    --theme: #1E2A33;       /* very dark teal background */
+    --entry: #2F4858;       /* medium dark teal */
+    --primary: #F2D4C7;     /* light warm beige text */
+    --secondary: #8EA8BD;   /* muted light blue for clickable boxes */
+    --tertiary: #B7C3C9;    /* lighter gray-blue accent */
+    --content: #F2F2F2;     /* very light text for sharp contrast */
+    --code-block-bg: #2F4858; /* medium dark teal for code blocks */
+    --code-bg: #1E2A33;       /* very dark teal background */
+    --border: #AC7C68;        /* muted warm brown border */
 }
 
 .list {
-    background: var(--code-bg);
+    background: var(--secondary);
+    color: var(--primary);
 }
 
 .dark.list {
-    background: var(--theme);
+    background: var(--secondary);
+    color: var(--primary);
 }
