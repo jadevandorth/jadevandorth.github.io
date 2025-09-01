@@ -1,4 +1,4 @@
-baseURL: "https://jadevandorth.github.io"           # CHANGE TO YOUR OWN DOMAIN
+baseURL: "https://jadevandorth.github.io"           # CHANGE TO OWN DOMAIN
 title: Jade Suiyue Yue van Dorth   		    # SITE TITLE - SHOWS IN BROWSER TAB & HEADER
 theme: PaperMod
 
@@ -34,12 +34,12 @@ menu:
 # ---------------------------
 
 params:
-    description: "This is the personal site of Jade Suiyue Yue van Dorth."
+    description: "This is the personal website of Jade Suiyue Yue van Dorth."
 
     author: Jade Suiyue Yue van Dorth
 
     DateFormat: "January 2006"
-    defaultTheme: light
+    defaultTheme: dark
     hideFooter: false
     disableThemeToggle: false
     ShowShareButtons: false
@@ -50,9 +50,8 @@ params:
     ShowBreadCrumbs: false
     ShowCodeCopyButtons: true
     ShowAllPagesInArchive: false
-    MainSections: ["books","courses","papers","data"] # THIS NEEDS TO BE CHANGED? 
     ShowToc: false
-    disableScrollToTop: true
+    disableScrollToTop: false
     TocOpen: true
     ShowWordCount: false
     UseHugoToc: true
@@ -65,18 +64,18 @@ params:
 
     profileMode:
           enabled: true
-          title: Jade Suiyue Yue van Dorth (MSc)       # LARGE TITLE ON HOMEPAGE
+          title: Jade Suiyue Yue van Dorth (MSc)       # TITLE ON HOMEPAGE
 
-          subtitle: "I am a Ph.D. student in human-AI communication at The University of Amsterdam. I love exploring emerging technologies and reflecting on how they shape the experiences and futures of young people today. I am passionate about bridging the gap between AI research and real-world impacts, especially for the next generation." 
+          subtitle: "I am a PhD-candidate in human-AI communication at The University of Amsterdam. I love exploring emerging technologies and reflecting on how they shape the experiences and futures of young people today. I am passionate about bridging the gap between AI research and real-world impacts, especially for the next generation." 
 
           imageUrl: "picture.jpeg"
-          imageWidth: 160
-          imageHeight: 160
+          imageWidth: 150
+          imageHeight: 150
           buttons:
            - name: About me
              url: about/
            - name: Conferences
-             url: conferences/hugo 
+             url: conferences/
            - name: Papers
              url: papers/
            - name: Blog
@@ -84,12 +83,19 @@ params:
 
   # ---------------------------
   # SOCIAL ICONS (BOTTOM OF PROFILE)
-  # REMOVE IF NOT WANTED
   # ---------------------------
 
     socialIcons:
         - name: CV
           url: cvjade.pdf
+        - name: University
+          url: https://ascor.uva.nl/content/research-groups/youth-media-entertainment/youth-media-entertainment.html
+        - name: Location
+          url: https://ascor.uva.nl/contact/contact.html
+        - name: ORCID
+          url: https://orcid.org/0009-0001-5016-0200
+        - name: LinkedIn
+          url: https://www.linkedin.com/in/jade-van-dorth-608b30213/
         - name: GitHub
           url: https://github.com/jadevandorth
 
