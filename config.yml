@@ -28,6 +28,9 @@ menu:
         - name: Blog
           url: blog/
           weight: 4
+        - name: Search
+          url: search
+          weight: 5
 
 # ---------------------------
 # SITE PARAMETERS
