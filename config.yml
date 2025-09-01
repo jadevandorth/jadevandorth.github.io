@@ -91,9 +91,6 @@ params:
     socialIcons:
         - name: CV
           url: cvjade.pdf
-        - name: University
-          url: https://ascor.uva.nl/content/research-groups/youth-media-entertainment/youth-media-entertainment.html
-          icon: "fas fa-university"
         - name: Location
           url: https://ascor.uva.nl/contact/contact.html
         - name: ORCID
