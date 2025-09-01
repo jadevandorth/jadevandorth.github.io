@@ -19,14 +19,14 @@ menu:
         - name: About Me       		            # TEXT IN MENU
           url: about/                               # URL content/about.md should exist
           weight: 1                                 # ORDER OF APPEARANCE
+        - name: Conferences
+          url: conferences/
+          weight: 2
         - name: Papers
           url: papers/
-          weight: 2
+          weight: 3
         - name: Blog
           url: blog/
-          weight: 3
-        - name: Search
-          url: search/
           weight: 4
 
 # ---------------------------
@@ -34,7 +34,7 @@ menu:
 # ---------------------------
 
 params:
-    description: "This is the personal site of Jade Suiyue Yue van Dorth. You can learn more About Me, explore my Papers, read updates on my Blog, and use the Search function to find specific content."
+    description: "This is the personal site of Jade Suiyue Yue van Dorth."
 
     author: Jade Suiyue Yue van Dorth
 
@@ -75,12 +75,12 @@ params:
           buttons:
            - name: About me
              url: about/
+           - name: Conferences
+             url: conferences/hugo 
            - name: Papers
              url: papers/
            - name: Blog
              url: blog/
-           - name: Search
-             url: search/hugo 
 
   # ---------------------------
   # SOCIAL ICONS (BOTTOM OF PROFILE)
