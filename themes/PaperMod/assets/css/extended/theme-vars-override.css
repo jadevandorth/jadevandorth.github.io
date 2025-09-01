@@ -7,29 +7,27 @@
     --footer-height: 60px;
     --radius: 8px;
 
-    /* Light theme: higher contrast, light beige background, dark text */
-    --theme: #FFF9F6;       /* very pale beige, almost white */
-    --entry: #F9EBD7;       /* soft warm beige */
-    --primary: #042E3E;     /* very dark teal blue for text */
-    --secondary: #317080;   /* saturated teal for clickable boxes */
-    --tertiary: #4A6C7D;    /* darker teal accent */
-    --content: #042E3E;     /* very dark teal text for maximum contrast */
-    --code-block-bg: #F9EBD7; /* light beige background for code blocks */
-    --code-bg: #D0B399;       /* warm beige for backgrounds */
-    --border: #AC7C68;        /* muted warm brown border */
+    --theme: #FFF7F2;       /* very light beige */
+    --entry: #FBE9E7;       /* soft warm beige */
+    --primary: #6B3131;     /* dark muted pink for text */
+    --secondary: #A77B7B;   /* muted pinkish for clickable boxes */
+    --tertiary: #C9A9A9;    /* lighter pink accent */
+    --content: #6B3131;     /* dark muted pink for content text */
+    --code-block-bg: #FBE9E7; /* light beige for code blocks */
+    --code-bg: #F4D6D5;       /* warm beige background */
+    --border: #C4908A;        /* muted warm brown border */
 }
 
 .dark {
-    /* Dark theme: higher contrast, dark background, light text */
-    --theme: #1E2A33;       /* very dark teal background */
-    --entry: #2F4858;       /* medium dark teal */
-    --primary: #F2D4C7;     /* light warm beige text */
-    --secondary: #8EA8BD;   /* muted light blue for clickable boxes */
-    --tertiary: #B7C3C9;    /* lighter gray-blue accent */
-    --content: #F2F2F2;     /* very light text for sharp contrast */
-    --code-block-bg: #2F4858; /* medium dark teal for code blocks */
-    --code-bg: #1E2A33;       /* very dark teal background */
-    --border: #AC7C68;        /* muted warm brown border */
+    --theme: #1C1D22;       /* Discord dark background */
+    --entry: #2E3038;       /* slightly lighter dark shade */
+    --primary: #DADADA;     /* light gray text */
+    --secondary: #9B9B9B;   /* medium gray clickable boxes */
+    --tertiary: #414349;    /* dark gray accent */
+    --content: #C4C4C4;     /* softer light gray for content */
+    --code-block-bg: #2E3038; /* dark background for code blocks */
+    --code-bg: #373A43;       /* slightly lighter dark background */
+    --border: #33363D;        /* medium dark border */
 }
 
 .list {
