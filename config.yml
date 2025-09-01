@@ -61,6 +61,10 @@ params:
     comments: false
     math: true
 
+  # ADD CUSTOM CSS FILES BELOW HERE, IF DESIRED
+  customCSS:
+    - css/extended/theme-vars-override.css
+
   # ---------------------------
   # HOMEPAGE PROFILE MODE
   # ---------------------------
