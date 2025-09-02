@@ -1,4 +1,5 @@
 ---
 title: "Blog"
-description: "Personal blog on my website." 
+description: "Personal blog on website." 
+draft: false
 ---
