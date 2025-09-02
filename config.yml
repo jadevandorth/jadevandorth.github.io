@@ -73,7 +73,9 @@ params:
           enabled: true
           title: Jade Suiyue Yue van Dorth (MSc)       # TITLE ON HOMEPAGE
 
-          subtitle: "Hello there! I am a PhD-candidate in human-AI communication at The University of Amsterdam. I love exploring emerging technologies and reflecting on how they shape the experiences and futures of young people today. I have previously worked as a research assistant on projects focused on human-robot interactions and addressing the needs of long COVID patients. I earned both my BSc and MSc (research) degrees in Communication Science at the University of Amsterdam." 
+          subtitle: "Hello there! 
+
+I am a PhD-candidate in **human-AI communication** at The University of Amsterdam. I love exploring emerging technologies and reflecting on how they shape the experiences and futures of young people today. I have previously worked as a research assistant on projects focused on human-robot interactions and addressing the needs of long COVID patients. I earned both my BSc and MSc (research master) degrees in Communication Science at The University of Amsterdam." 
 
           imageUrl: "picture.jpeg"
           imageWidth: 160
