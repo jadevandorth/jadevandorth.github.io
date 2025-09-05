@@ -72,15 +72,6 @@ params:
           imageUrl: "picture.jpeg"
           imageWidth: 160
           imageHeight: 160
-          buttons:
-           - name: About me
-             url: about/
-           - name: Conferences
-             url: conferences/
-           - name: Papers
-             url: papers/
-           - name: Blog
-             url: blog/
 
   # ---------------------------
   # SOCIAL ICONS (BOTTOM OF PROFILE)
