@@ -7,9 +7,8 @@
 
 <head>
 
-    {{ partial "header.html" . }} 
-
     {{- partial "head.html" . }}
+
 </head>
 
 <body class="
@@ -20,6 +19,10 @@
 {{- print " dark" }}
 {{- end -}}
 " id="top">
+
+
+{{ partial "header.html" . }} 
+
     <main class="main">
         {{- block "main" . }}{{ end }}
     </main>
