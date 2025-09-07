@@ -2,14 +2,14 @@
 
 title: "Ollama and OpenWebUI: Using local LLMs" 
 date: 2025-09-02
-tags: ["Blog", "Local LLM", "generative AI"]
+tags: ["Blog", "Local LLM", "generative AI", "GitHub"]
 author: ["Jade Suiyue Yue van Dorth"]
 description: "This blog details how you can locally run LLMs using Ollama and OpenWebUI." 
 summary: "This blog briefly describes how you can locally run LLMs using Ollama and OpenWebUI. It may be useful for personal tasks or research in the future." 
 showToc: true
 disableAnchoredHeadings: false
 cover:
-    image: "ollama.png"
+    image: "blog1.png"
     alt: "Ollama Image"
     relative: true
 
