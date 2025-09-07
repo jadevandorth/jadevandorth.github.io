@@ -19,7 +19,7 @@ cover:
 
 "How would I ever program a Large Language Model (LLM) myself? I have no coding experience!"
 
-Ah, a common question from a newbie coder! Well, I didn't have much experience with coding either, aside from HTML, CSS and JavaScript which I learned in high school. However, for my Master's thesis, I was determined on a topic related to generative AI and as such, felt that it was time for me to learn how to use LLMs in a responsible way. Please don't let the lack of coding experience or computer knowledge hold you back from trying! If I can do it, you can surely do it too! 
+Ah, a common question from a newbie coder! Well, I didn't have much experience with coding either, aside from HTML, CSS and JavaScript which I learned in high school. However, for my Master's thesis, I was determined on a topic related to generative AI and as such, felt that it was time for me to learn how to use LLMs in a responsible way. Please don't let the lack of coding experience or computer knowledge hold you back from trying. If I can do it, you can surely do it too! 
 
 As I wanted to find a responsible way of using LLMs, I asked a friend of mine (whom I would like to call a computer nerd) and he suggested me to check out local LLM deployment. 
 
@@ -53,8 +53,8 @@ Okay, before you get started with the setup, you might want some more informatio
 - OpenWebUI is a web-based interface that can connect to your local models, giving you a user-friendly chat window right in your browser (via localhost). It looks a bit similar to ChatGPT, and it definitely beats typing and reading in the Terminal. ;) 
 
 For the most reliable and up-to-date information, I think it’s best to follow the official guides on Ollama and OpenWebUI GitHub repositories. While there are also various blog posts and instructional videos available, official documentation often gets updated first, so checking the original sources ensures you have the latest instructions!
-- Ollama GitHub repository https://github.com/ollama/ollama
-- OpenWebUI GitHub repository https://github.com/open-webui/open-webui
+- [Ollama GitHub repository](https://github.com/ollama/ollama)
+- [OpenWebUI GitHub repository](https://github.com/open-webui/open-webui)
 
 ---
 
