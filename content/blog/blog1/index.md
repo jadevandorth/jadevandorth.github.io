@@ -8,6 +8,10 @@ description: "This blog details how you can locally run LLMs using Ollama and Op
 summary: "This blog briefly describes how you can locally run LLMs using Ollama and OpenWebUI. It may be useful for personal tasks or research in the future." 
 showToc: true
 disableAnchoredHeadings: false
+cover:
+    image: "ollama.png"
+    alt: "Ollama Image"
+    relative: true
 
 ---
 
