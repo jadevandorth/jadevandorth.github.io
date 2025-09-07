@@ -71,13 +71,11 @@ params:
 
 <br> <br>  I am a PhD-candidate in human-AI communication at the University of Amsterdam. I love exploring emerging technologies and reflecting on how they shape the experiences and futures of young people today. 
 
-<br> <br> I have previously worked as a research assistant on projects focused on human-robot interactions and addressing the needs of post-COVID-19 patients. 
-
-<br> <br> I earned both my Bachelor's and Master's (research) degrees in Communication Science at the University of Amsterdam." 
+<br> <br> I have previously worked as a research assistant on projects focused on human-robot interactions and addressing the needs of people living with post-COVID-19. I earned both my Bachelor's and Master's (research) degrees in Communication Science at the University of Amsterdam." 
 
           imageUrl: "picture.jpeg"
-          imageWidth: 150
-          imageHeight: 150
+          imageWidth: 145
+          imageHeight: 145
 
   # ---------------------------
   # SOCIAL ICONS (BOTTOM OF PROFILE)
